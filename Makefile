@@ -325,6 +325,8 @@ clean:
 	-$(RM)	fltk/src/drivers/X11/*.o
 	-$(RM)	fltk/src/drivers/Xlib/*.o
 	-$(RM)	fltk/src/drivers/Wayland/*.o
+	-$(RM)	fltk/src/xutf8/*.o
+	-$(RM)	fltk/src/*.o
 	-$(RM)	$(DSONAME) $(FLDSONAME) $(GLDSONAME) $(IMGDSONAME) \
 		$(LIBNAME) $(FLLIBNAME) $(GLLIBNAME) \
 		$(IMGLIBNAME) \
